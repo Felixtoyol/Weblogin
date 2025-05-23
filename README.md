@@ -53,7 +53,7 @@ A sleek and powerful CLI utility designed to assess and exploit WebDAV PUT uploa
 Run the tool with Python:
 
 ```bash
-python dxister_webdav.py
+python3 weblogin.py
 ```
 
 Follow the on-screen menu:
