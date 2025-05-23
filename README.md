@@ -10,7 +10,7 @@ A sleek and powerful CLI utility designed to assess and exploit WebDAV PUT uploa
 
 **Auto-Bypass Payloads:** Generate and attempt multiple filename variants to circumvent server-side filters.
 **Single & Batch Modes:** Target individual URLs or process multiple endpoints from a list.
-**Verification & Logging:** Automatically verify successful uploads and record accessible URLs in `found_vuln.txt`.
+**Verification & Logging:** Automatically verify successful uploads.
 **Extensible & Lightweight:** Minimal dependencies for fast setup.
 
 
@@ -20,16 +20,18 @@ A sleek and powerful CLI utility designed to assess and exploit WebDAV PUT uploa
 **pip** (Python package installer)
 
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/dxister-webdav-uploader.git
-   cd dxister-webdav-uploader
+   git clone https://github.com/Felixtoyol/Weblogin.git
+   cd Weblogin
+   python3 weblogin.py
    ```
+   
 
-2. **Create a virtual environment (recommended)**
+2. **Create a virtual environment (Optional, recommended)**
 
    ```bash
    python3 -m venv venv
@@ -46,7 +48,7 @@ A sleek and powerful CLI utility designed to assess and exploit WebDAV PUT uploa
 
 ---
 
-## 📋 Usage
+## Usage
 
 Run the tool with Python:
 
@@ -70,24 +72,3 @@ Follow the on-screen menu:
 3. **Exit**
 
 Successful uploads are verified
-
-
-## 📁 Project Structure
-
-```plaintext
-.
-├── dxister_webdav.py        # Main script
-├── requirements.txt         # Python dependencies
-├── README.md                # Project documentation
-├── targets.txt              # Example target list
-└── deface.html              # Example defacement file
-```
-
-## ⚠️ Legal Disclaimer
-
-This tool is provided **"as is"** for **authorized security assessments** and **educational purposes** only. Unauthorized use against systems without explicit permission is strictly prohibited and may be illegal.
-
-
-## 📜 License
-
-Distributed under the [MIT License](LICENSE).
